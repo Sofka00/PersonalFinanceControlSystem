@@ -6,7 +6,22 @@
         xmlns:local="clr-namespace:PersonalFinanceControlSystem"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Margin="0,3,0,-3">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="191*"/>
+            <ColumnDefinition Width="209*"/>
+        </Grid.ColumnDefinitions>
+        <ListBox x:Name="ListBoxAcount" Grid.Column="1"/>
+        <Label Content="Название" HorizontalAlignment="Left" Margin="10,35,0,0" VerticalAlignment="Top" Width="98" Height="29"/>
+        <TextBox x:Name="TextBoxName" HorizontalAlignment="Left" Margin="108,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="199" RenderTransformOrigin="0.274,-0.098" Height="29"/>
+        <Label Content="Название" HorizontalAlignment="Left" Margin="10,35,0,0" VerticalAlignment="Top" Width="98" Height="29"/>
+        <TextBox x:Name="TextBoxName_Copy" HorizontalAlignment="Left" Margin="108,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="199" RenderTransformOrigin="0.274,-0.098" Height="29"/>
+        <Label Content="Баланс" HorizontalAlignment="Left" Margin="10,82,0,0" VerticalAlignment="Top" Width="98" Height="29"/>
+        <TextBox x:Name="TextBoxMoneyAmount" HorizontalAlignment="Left" Margin="108,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="199" RenderTransformOrigin="0.274,-0.098" Height="29"/>
+        <Label Content="Банкт/Тип" HorizontalAlignment="Left" Margin="10,133,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.069,-0.408" Width="98"/>
+        <TextBox x:Name="TextBoxBankType" HorizontalAlignment="Left" Height="26" Margin="108,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="199"/>
+        <Button Content="Создать счет" HorizontalAlignment="Center" Height="80" Margin="0,281,0,0" VerticalAlignment="Top" Width="202"/>
+
 
     </Grid>
 </Window>
