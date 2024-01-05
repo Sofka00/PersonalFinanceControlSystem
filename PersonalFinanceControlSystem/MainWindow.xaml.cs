@@ -24,5 +24,12 @@ namespace PersonalFinanceControlSystem
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Lable lable = new Lable
+                lable.Content = "hhhh";
+
+        }
     }
 }

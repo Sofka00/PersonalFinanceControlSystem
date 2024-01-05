@@ -20,7 +20,7 @@
         <TextBox x:Name="TextBoxMoneyAmount" HorizontalAlignment="Left" Margin="108,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="199" RenderTransformOrigin="0.274,-0.098" Height="29"/>
         <Label Content="Банкт/Тип" HorizontalAlignment="Left" Margin="10,133,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.069,-0.408" Width="98"/>
         <TextBox x:Name="TextBoxBankType" HorizontalAlignment="Left" Height="26" Margin="108,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="199"/>
-        <Button Content="Создать счет" HorizontalAlignment="Center" Height="80" Margin="0,281,0,0" VerticalAlignment="Top" Width="202"/>
+        <Button Content="Создать счет" HorizontalAlignment="Center" Height="80" Margin="0,281,0,0" VerticalAlignment="Top" Width="202" Click="Button_Click"/>
 
 
     </Grid>

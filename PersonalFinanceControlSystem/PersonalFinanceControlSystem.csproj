@@ -7,4 +7,8 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PersonalFinanceControlSystem.Logic\PersonalFinanceControlSystem.Logic.csproj" />
+  </ItemGroup>
+
 </Project>
